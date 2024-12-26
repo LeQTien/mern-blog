@@ -8,5 +8,11 @@ export default {
   theme: {
     extend: {}
   },
-  plugins: [require('flowbite/plugin'), require('tailwind-scrollbar')]
-}
+  plugins: [
+    // Assuming flowbite also provides an ES module import
+    import('flowbite').then(flowbite => flowbite.plugin),
+    tailwindScrollbar
+  ]
+};
+
+import tailwindScrollbar from 'tailwind-scrollbar';

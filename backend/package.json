@@ -35,6 +35,6 @@
     "babel-plugin-module-resolver": "^5.0.0",
     "cross-env": "^7.0.3",
     "eslint": "^8.54.0",
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.1.9"
   }
 }
